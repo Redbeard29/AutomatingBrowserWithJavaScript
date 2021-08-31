@@ -13,7 +13,7 @@ var autoTodo = new function() {
     }
 
     this.selectGivenItem = function(idx){
-        document.querySelector('ul.todo-list > li:nth-child(" + idx + ") input.toggle').click();
+        document.querySelector("ul.todo-list > li:nth-child(" + idx + ") input.toggle").click();
     }
 
     this.deleteGivenItem = function(idx){
